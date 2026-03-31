@@ -1,0 +1,367 @@
+<html lang="en">
+
+<head>
+
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Help Center – Secure Support Anytime</title>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&amp;display=swap" rel="stylesheet">
+  <style>
+    * {margin:0; padding:0; box-sizing:border-box;}
+    body {
+      font-family: 'Outfit', sans-serif;
+      background-color:#f9fafb;
+      color:#1a1a1a;
+    }
+    header {
+      background-color:#0052ff;
+      color:#fff;
+      padding:2rem 1.5rem;
+      text-align:center;
+    }
+    header h1 {
+      font-size:2rem;
+      margin-bottom:0.5rem;
+    }
+    header p {
+      font-size:1.1rem;
+      opacity:0.9;
+    }
+    .search-bar {
+      margin:2rem auto;
+      display:flex;
+      justify-content:center;
+    }
+    .search-bar input {
+      width:60%;
+      padding:0.9rem 1.2rem;
+      border-radius:8px 0 0 8px;
+      border:1px solid #ddd;
+      font-size:1rem;
+      outline:none;
+    }
+    .search-bar button {
+      padding:0.9rem 1.4rem;
+      border:none;
+      background-color:#0052ff;
+      color:#fff;
+      border-radius:0 8px 8px 0;
+      cursor:pointer;
+      transition:0.2s;
+    }
+    .search-bar button:hover { background-color:#003ecc; }
+
+    .help-topics {
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+      gap:1.5rem;
+      padding:2rem 5%;
+    }
+    .topic {
+      background:#fff;
+      padding:1.5rem;
+      border-radius:12px;
+      box-shadow:0 3px 8px rgba(0,0,0,0.05);
+      transition:transform 0.2s, box-shadow 0.2s;
+    }
+    .topic:hover {
+      transform:translateY(-4px);
+      box-shadow:0 5px 12px rgba(0,0,0,0.08);
+    }
+    .topic h3 {
+      color:#0052ff;
+      font-size:1.2rem;
+      margin-bottom:0.8rem;
+    }
+    .topic p {
+      color:#444;
+      font-size:0.95rem;
+      line-height:1.5;
+    }
+
+    .cta-section {
+      background:#eaf1ff;
+      text-align:center;
+      padding:3rem 1.5rem;
+      margin-top:2rem;
+    }
+    .cta-section h2 {
+      color:#002b80;
+      margin-bottom:1rem;
+    }
+    .cta-section p {
+      color:#333;
+      margin-bottom:1.5rem;
+      font-size:1rem;
+    }
+    .cta-btn {
+      background:#0052ff;
+      color:#fff;
+      padding:0.9rem 1.6rem;
+      border:none;
+      border-radius:10px;
+      cursor:pointer;
+      font-weight:600;
+      transition:0.3s;
+    }
+    .cta-btn:hover {
+      background:#003ecc;
+      transform:translateY(-2px);
+    }
+
+    footer {
+      text-align:center;
+      padding:1.5rem;
+      background:#fff;
+      color:#777;
+      font-size:0.9rem;
+      margin-top:2rem;
+      border-top:1px solid #eee;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Help Center Guide</h1>
+    <p>Find answers about wallet security, transactions, staking, and troubleshooting — all in one place.</p>
+  </header>
+
+  <div class="search-bar">
+    <input type="text" placeholder="Search articles, topics, or FAQs...">
+    <button>Search</button>
+  </div>
+
+  <section class="help-topics">
+    <div class="topic">
+      <h3>🔐 Account & Security</h3>
+      <p>Your recovery phrase (also called seed phrase) is the only way to restore your wallet.
+<br><br>
+- Never share your recovery phrase with anyone.
+<br>
+- This does not offer phone support.
+<br>
+- Support is available only through official channels.</p>
+    </div>
+    <div class="topic">
+      <h3>📚 Getting Started</h3>
+     
+1. Download the official app from the App Store or Google Play.
+<br>
+2. Create a new wallet or import an existing one.
+<br>
+3. Securely back up your recovery phrase offline.</p>
+    </div>
+    <div class="topic">
+      <h3>💳 Transactions & Fees</h3>
+      <p>Blockchain transactions require network fees.<br><br>.
+If a transaction is pending, it must be confirmed by the blockchain network. This cannot reverse or cancel confirmed transactions.</p>
+    </div>
+    <div class="topic">
+      <h3>📱 Mobile Apps Support</h3>
+      <p>Make sure you are using the latest version of the app.<br> <br>
+If experiencing issues:
+<br>
+1. Check your internet connection.
+<br>
+2. Update the app
+<br>
+3. Restart your device</p>
+    </div>
+    
+    <div class="topic">
+      <h3>🌐 Troubleshooting</h3>
+      <p>Missing tokens may require manually adding the token contract address.<br> <br>
+Delayed transactions are usually due to network congestion.</p>
+    </div>
+  </section>
+  <!-- Advanced Security Section -->
+<section style="padding:2rem 5%; background:#f9fafb; margin-top:2rem;">
+  <h2 style="text-align:center; color:#0052ff; margin-bottom:2rem;">
+    Advanced Security Tips
+  </h2>
+
+  <div class="help-topics">
+
+    <div class="topic">
+      <h3>🔒 Device Protection</h3>
+      <p>
+        Keep your operating system updated and avoid installing unknown software.
+        Consider using a dedicated device for crypto storage.
+      </p>
+    </div>
+
+    <div class="topic">
+      <h3>🔐 Smart Contract Approvals</h3>
+      <p>
+        Review token approvals regularly and revoke access from unused decentralized applications.
+        Only approve trusted smart contracts.
+      </p>
+    </div>
+
+    <div class="topic">
+      <h3>🌐 Safe DApp Usage</h3>
+      <p>
+        Verify website URLs before connecting your wallet.
+        Disconnect your wallet after completing transactions.
+      </p>
+    </div>
+
+    <div class="topic">
+      <h3>📦 Backup Best Practices</h3>
+      <p>
+        Store multiple offline backups of your recovery phrase in secure locations.
+        Never store it in cloud storage or email.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+<!-- Additional Information Section -->
+<section style="padding:2rem 5%; background:#ffffff; margin-top:2rem;">
+  <h2 style="text-align:center; color:#0052ff; margin-bottom:2rem;">
+    Additional Wallet Guidance
+  </h2>
+
+  <div class="help-topics">
+
+    <div class="topic">
+      <h3>🌍 Network Compatibility</h3>
+      <p>
+        Always make sure you are sending and receiving assets on the correct blockchain network.
+        Sending tokens to the wrong network may result in permanent loss.
+        <br><br>
+        Double-check the network type (ERC20, BEP20, etc.) before confirming transactions.
+      </p>
+    </div>
+
+    <div class="topic">
+      <h3>🔄 Token Swaps</h3>
+      <p>
+        When swapping tokens:
+        <br><br>
+        - Review the exchange rate carefully.<br>
+        - Check slippage tolerance settings.<br>
+        - Confirm network fees before approval.<br><br>
+        Swap prices depend on market liquidity and blockchain conditions.
+      </p>
+    </div>
+
+    <div class="topic">
+      <h3>🛡 Security Best Practices</h3>
+      <p>
+        - Store your recovery phrase offline.<br>
+        - Avoid public Wi-Fi when making transactions.<br>
+        - Enable biometric or passcode protection.<br>
+        - Be cautious of phishing websites and fake support accounts.
+      </p>
+    </div>
+
+    <div class="topic">
+      <h3>📊 Transaction Status</h3>
+      <p>
+        If your transaction is pending:
+        <br><br>
+        - It may be due to network congestion.<br>
+        - Gas fees may affect confirmation speed.<br>
+        - Confirm the status using a blockchain explorer.
+      </p>
+    </div>
+
+    <div class="topic">
+      <h3>🔐 Wallet Recovery</h3>
+      <p>
+        To restore access on a new device:
+        <br><br>
+        - Install the official wallet app.<br>
+        - Select "Import Wallet".<br>
+        - Enter your recovery phrase in the correct order.<br><br>
+        Never enter your recovery phrase on unknown websites.
+      </p>
+    </div>
+
+    <div class="topic">
+      <h3>⚠️ Scam Awareness</h3>
+      <p>
+        - No legitimate wallet service provides phone-based support.<br>
+        - Support agents will never request your recovery phrase.<br>
+        - Ignore messages claiming urgent account suspension.<br>
+        - Always verify official communication channels.
+      </p>
+    </div>
+
+  </div>
+</section>
+<!-- FAQ Section -->
+<section style="padding:2rem 5%; background:#f9fafb; margin-top:2rem;">
+  <h2 style="text-align:center; color:#0052ff; margin-bottom:2rem;">
+    Frequently Asked Questions
+  </h2>
+
+  <div class="help-topics">
+
+    <div class="topic">
+      <h3>❓ Why is my transaction still pending?</h3>
+      <p>
+        Transactions may remain pending due to low network fees or blockchain congestion.
+        Confirmation speed depends on network validators, not the wallet application.
+      </p>
+    </div>
+
+    <div class="topic">
+      <h3>❓ Can transactions be reversed?</h3>
+      <p>
+        No. Blockchain transactions are irreversible once confirmed.
+        Always double-check the recipient address before sending funds.
+      </p>
+    </div>
+
+    <div class="topic">
+      <h3>❓ Why is my balance not updating?</h3>
+      <p>
+        Try refreshing the wallet, checking your internet connection,
+        or verifying the transaction status on a blockchain explorer.
+      </p>
+    </div>
+
+    <div class="topic">
+      <h3>❓ What if I lose my recovery phrase?</h3>
+      <p>
+        If you lose your recovery phrase and your device is lost or reset,
+        access to your wallet cannot be restored.
+        Secure backups are essential.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- Risk Disclosure Section -->
+<section style="padding:2.5rem 5%; background:#ffffff; margin-top:2rem;">
+  <h2 style="text-align:center; color:#0052ff; margin-bottom:1.5rem;">
+    Risk & Responsibility Notice
+  </h2>
+
+  <p style="max-width:900px; margin:0 auto; text-align:center; line-height:1.7; color:#444;">
+    Cryptocurrency markets are highly volatile and involve financial risk.
+    Users are fully responsible for safeguarding their private keys,
+    verifying transaction details, and understanding blockchain network requirements.
+    Digital asset transactions cannot be reversed once confirmed.
+  </p>
+</section>
+
+
+
+  <section class="cta-section">
+    <h2>Need additional help?</h2>
+    <p>If you cannot find the answer in our articles, please contact support through the official in-app support feature. For security reasons, we do not offer phone support.</p>
+
+  </section>
+
+  <footer>
+    © 2025 Help Center. All rights reserved.
+  </footer>
+
+</body></html>
